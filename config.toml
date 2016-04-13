@@ -1,0 +1,49 @@
+baseurl = "http://markboss.de/"
+languageCode = "en-us"
+title = "Mark Boss - a blog about vegan cooking, programming and stuff"
+theme = "hugo-steam-theme"
+paginate = 10
+
+[[menu.main]]
+  name = "Receipes"
+  identifier = "receipe"
+  url = "/receipe/"
+[[menu.main]]
+  name = "Programming"
+  identifier = "programming"
+  url = "/programming/"
+[[menu.main]]
+  name = "Design"
+  identifier = "design"
+  url = "/design/"
+
+[params]
+
+  title = "Mark Boss"
+  subtitle = "a blog about vegan cooking, programming and stuff"
+
+  # You can choose between green, orange, red and blue.
+  themeColor = "blue"
+  # Enable Google Analytics be inserting your tracking code
+  googleAnalytics = ""
+
+  # To provide some metadata for search engines and the about section in the footer
+  # feel free to add a few information about you and your website.
+  name = "Mark Boss"
+  bio = "Nerd who loves cooking, programming and design"
+  description = "Random stuff. Cooking, programming and design."
+  location = "" # optional
+  twitter = "benediktmboss" # optional
+  github = "vork" # optional
+
+  # Enable a comment system
+  # You can choose between Disqus or Google Plus by setting comments
+  # to disqus or googleplus. For using Disqus you need to enter your
+  # shortname in disqusShortname at the top of the configs. 
+  #comments = ""
+
+  # Customize or translate the strings
+  keepReadingStr = "Keep reading"
+  backtotopStr = "Back to top"
+  shareStr = "Share"
+  pageNotFoundTitle = "404 - Page not found"
