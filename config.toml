@@ -1,4 +1,4 @@
-baseurl = "markboss.de/"
+baseurl = "https://markboss.de/"
 languageCode = "en-us"
 title = "Mark Boss - a blog about vegan cooking, programming and stuff"
 theme = "aglaus"
