@@ -1,7 +1,6 @@
 +++
 categories = ["desert"]
 date = "2016-04-14T14:39:13+02:00"
-draft = true
 featureimage = "images/brownies-ganache-2.jpeg"
 type = "post"
 tags = [
