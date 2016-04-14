@@ -1,7 +1,7 @@
 baseurl = "https://markboss.de/"
 languageCode = "en-us"
 title = "Mark Boss - a blog about vegan cooking, programming and stuff"
-theme = "aglaus"
+theme = "type"
 copyright = "Copyright (c) 2016 - 2016, Mark Boss; all rights reserved."
 canonifyurls = true
 paginate = 5
