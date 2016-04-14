@@ -9,14 +9,14 @@ tags = [
 ]
 description = "Tasty summer dish with lots of roasted eggplants. Only 30 minutes."
 canonifyurls = true
-image = "eggplant-tomato-sauce-djuvec-rice.jpeg"
+featureimage = "images/eggplant-tomato-sauce-djuvec-rice.jpeg"
 +++
+
+![](/images/eggplant-tomato-sauce-djuvec-rice.jpeg)
 
 I really love roasted eggplant. I guess it's started with some falafel food places where you can add roasted eggplant to the falafel. With the parsley dip it's a great summer dish.
 
 <!--more-->
-
-![](/images/eggplant-tomato-sauce-djuvec-rice.jpeg)
 
 ## Ingredients
 

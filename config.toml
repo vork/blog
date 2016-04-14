@@ -1,22 +1,36 @@
 baseurl = "https://markboss.de/"
 languageCode = "en-us"
-title = "Mark Boss - a blog about vegan cooking, programming and stuff"
+title = "Mark Boss"
 theme = "type"
 copyright = "Copyright (c) 2016 - 2016, Mark Boss; all rights reserved."
 canonifyurls = true
 paginate = 5
 
-[[menu.main]]
+[[menu.nav]]
   name = "Receipes"
   identifier = "receipe"
   url = "/receipe/"
-[[menu.main]]
+[[menu.nav]]
   name = "Programming"
   identifier = "programming"
   url = "/programming/"
-[[menu.main]]
+[[menu.nav]]
   name = "Design"
   identifier = "design"
   url = "/design/"
 
 [params]
+        author = "Mark Boss"
+        description = "A blog about vegan cooking, programming, design and random stuff"
+        avatar = "images/avatar.png"
+
+        headerText = "Vegan cooking, programming, desgin and random stuff."
+        headerImage = ""
+        copyright = "Copyright (c) 2016 - 2016, Mark Boss; all rights reserved."
+
+        [params.social]
+          rss = true
+          homepage = false
+          github = "vork"
+          instagram = "benediktmboss"
+          twitter = "benediktmboss"
