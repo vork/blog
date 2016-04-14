@@ -1,7 +1,7 @@
 +++
 categories = ["desert"]
 date = "2016-04-14T14:39:13+02:00"
-featureimage = "images/brownies-ganache-2.jpeg"
+image = "brownies-ganache-2.jpeg"
 type = "post"
 tags = [
   "Desert",
@@ -10,11 +10,11 @@ tags = [
 title = "Brownies with ganache"
 +++
 
-![](/images/brownies-ganache-1.jpeg)
-
 Ok. Brownies are awesome. Add chocolate ganache and they’re even more awesome. Nothing for a strict diet, but definitely tasty.
 
 <!--more-->
+
+![](/images/brownies-ganache-1.jpeg)
 
 ## Ingredients
 
@@ -32,19 +32,18 @@ for 1 baking plate:
 * salt
 
 ### Ganache
-* 200g vegan chocolate 
+* 200g vegan chocolate
 * 200ml soy cream
 * 2-3 tbsp. margarine
 
 ## Cooking
 
-Melt the chocolate in a water bath. When the chocolate is molten stir in the soy cream and margarine. Remove from heat and let cool. Ideally in a fridge. 
+Melt the chocolate in a water bath. When the chocolate is molten stir in the soy cream and margarine. Remove from heat and let cool. Ideally in a fridge.
 
-Preheat the stove to 180°C.  For the brownie dough mix all dry ingredients in a bowl. Add the remaining ingredients while stirring. The dough should be firm and creamy. The consistency is similar to a muffin dough. 
+Preheat the stove to 180°C.  For the brownie dough mix all dry ingredients in a bowl. Add the remaining ingredients while stirring. The dough should be firm and creamy. The consistency is similar to a muffin dough.
 
-Spread the dough on a deep baking plate. Bake for 35 minutes. Test the brownies from time to time with a stick. 
+Spread the dough on a deep baking plate. Bake for 35 minutes. Test the brownies from time to time with a stick.
 
 Take the ganache and whip it. If the ganache refuses to get creamy, add more margarine. When you have a nice, creamy ganache put it back in the fridge.
 
 When the brownies are done, let them cool and spread the ganache afterwards evenly on the brownies.
-

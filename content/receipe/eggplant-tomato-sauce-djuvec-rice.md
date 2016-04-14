@@ -9,14 +9,14 @@ tags = [
 ]
 description = "Tasty summer dish with lots of roasted eggplants. Only 30 minutes."
 canonifyurls = true
-featureimage = "images/eggplant-tomato-sauce-djuvec-rice.jpeg"
+image = "eggplant-tomato-sauce-djuvec-rice.jpeg"
 +++
-
-![](/images/eggplant-tomato-sauce-djuvec-rice.jpeg)
 
 I really love roasted eggplant. I guess it's started with some falafel food places where you can add roasted eggplant to the falafel. With the parsley dip it's a great summer dish.
 
 <!--more-->
+
+![](/images/eggplant-tomato-sauce-djuvec-rice.jpeg)
 
 ## Ingredients
 
@@ -47,7 +47,7 @@ For 3-4 Persons:
 
 ## Cooking
 
-So we start with slicing the eggplant in slices (approx 1cm thick) and salt them from both sides. Let them sit for 5 minutes. In the meantime dice your onions, red pepper and finely dice the garlic. 
+So we start with slicing the eggplant in slices (approx 1cm thick) and salt them from both sides. Let them sit for 5 minutes. In the meantime dice your onions, red pepper and finely dice the garlic.
 
 Heat some oil in a pot and add the onions. Simultaneously heat some oil in a pan and start roasting the eggplants in small portions. Roast each side for approx 4 minutes.
 

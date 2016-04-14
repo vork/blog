@@ -1,0 +1,19 @@
+{{ if .Site.Menus.main }}
+<nav class="menu" role="nav">
+    <ul>
+        {{ range .Site.Menus.main }}
+        	<li class="nav nav-current"><a href="{{ .URL }}">{{ .Name }}</a></li>
+      	{{end}}
+    </ul>
+</nav>
+{{ if eq .URL "/receipe/" }}
+<nav class="menu" role="nav">
+    <ul>
+        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        	<li class="nav nav-current"><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+      	{{end}}
+    </ul>
+</nav>
+{{ end }}
+
+{{ end }}

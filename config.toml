@@ -1,36 +1,37 @@
 baseurl = "https://markboss.de/"
 languageCode = "en-us"
 title = "Mark Boss"
-theme = "type"
-copyright = "Copyright (c) 2016 - 2016, Mark Boss; all rights reserved."
-canonifyurls = true
-paginate = 5
+theme = "steam"
 
-[[menu.nav]]
+canonifyurls = true
+paginate = 10
+
+[[menu.main]]
   name = "Receipes"
   identifier = "receipe"
   url = "/receipe/"
-[[menu.nav]]
+[[menu.main]]
   name = "Programming"
   identifier = "programming"
   url = "/programming/"
-[[menu.nav]]
+[[menu.main]]
   name = "Design"
   identifier = "design"
   url = "/design/"
 
 [params]
-        author = "Mark Boss"
-        description = "A blog about vegan cooking, programming, design and random stuff"
-        avatar = "images/avatar.png"
-
-        headerText = "Vegan cooking, programming, desgin and random stuff."
-        headerImage = ""
+        title = "Mark Boss"
+        subtitle = "A blog about vegan cooking, programming, design and random stuff"
         copyright = "Copyright (c) 2016 - 2016, Mark Boss; all rights reserved."
+        themeColor = "blue"
 
-        [params.social]
-          rss = true
-          homepage = false
-          github = "vork"
-          instagram = "benediktmboss"
-          twitter = "benediktmboss"
+        name = "Mark Boss"
+        bio = "Nerd, cooking enthusiast"
+        description = "A blog about vegan cooking, programming, design and random stuff"
+        twitter = "benediktmboss"
+        github = "vork"
+
+        keepReadingStr = "Keep reading"
+	      backtotopStr = "Back to top"
+	      shareStr = "Share"
+	      pageNotFoundTitle = "404 - Page not found"
