@@ -6,6 +6,7 @@
       	{{end}}
     </ul>
 </nav>
+{{ with .Params.image }}{{ . }}{{ else }}avatar.png{{ end }}
 {{ if eq .URL "/receipe/" }}
 <nav class="menu" role="nav">
     <ul>

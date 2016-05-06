@@ -1,0 +1,6 @@
+name = "Epilog"
+description = "A minimal theme for bloggers."
+min_version = 0.14
+
+[author]
+  name = "Mark Boss"

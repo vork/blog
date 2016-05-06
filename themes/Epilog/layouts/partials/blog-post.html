@@ -1,0 +1,30 @@
+	<!-- Single Post -->
+<div class="blog-post single-post">
+	<div class="post-header">
+		<p class="categories">{{ range .Params.categories }}
+			<a href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+		{{ end }}</p>
+		<h2 class="post-title">{{ .Title }}</h2>
+		<ul class="post-meta">
+			<li class="date"><time datetime="{{ .Date.Format "02 January 2006" }}">{{ .Date.Format "02 January 2006" }}</time></li>
+			<li class="author">by {{ .Site.Params.name }}</li>
+		</ul>
+	</div>
+
+	<div class="post-body">
+		{{ .Content }}
+
+		<p class="tags"><span>Tags: </span>{{ range .Params.tags }}<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a> / {{ end }}</p>
+
+		<div class="share-block">
+			<span class="toggle">Share <i class="icon-share"></i></span>
+			<div class="share-options">
+				<ul class="clean-list">
+					<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com/intent/tweet?text={{ "Just cooked " }}{{ .Title }}{{ ". Get the receipe on: " }}&url={{ .Permalink  }}"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://plus.google.com/share?url={{ .Permalink }}"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

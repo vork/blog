@@ -1,0 +1,31 @@
+{{ partial "head" . }}
+<body id="front-page">
+	<!-- Page Wrapper -->
+	<div id="page">
+		{{ partial "header" . }}
+	  {{ partial "navigation" . }}
+
+		<!-- Main Content -->
+    {{ "<!-- Single -->" | safeHTML }}
+		<div class="content-wrapper">
+			<div class="section section-blogspot has-padding">
+			  <div class="container">
+			    <div class="row">
+			      <div class="main-content">
+			        <div class="col-md-16">
+								{{ partial "blog-post" . }}
+							</div>
+						</div>
+						{{ partial "sidebar" . }}
+					</div>
+				</div>
+		</div>
+	</div>
+
+	{{ partial "footer" . }}
+
+</div>
+
+{{ partial "js" . }}
+</body>
+</html>

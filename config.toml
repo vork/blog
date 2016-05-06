@@ -1,15 +1,35 @@
 baseurl = "https://markboss.de/"
 languageCode = "en-us"
 title = "Mark Boss"
-theme = "steam"
+theme = "Epilog"
 
 canonifyurls = true
 paginate = 10
 
 [[menu.main]]
-  name = "Receipes"
-  identifier = "receipe"
+  name = "Receipe"
+  identifier = "Receipe"
   url = "/receipe/"
+[[menu.main]]
+    name = "Basics"
+    identifier = "basics"
+    url = "/categories/basics/"
+    parent = "Receipe"
+[[menu.main]]
+    name = "Appetizer"
+    identifier = "appetizer"
+    url = "/categories/appeitzer/"
+    parent = "Receipe"
+[[menu.main]]
+    name = "Main Dish"
+    identifier = "main-dish"
+    url = "/categories/main-dish/"
+    parent = "Receipe"
+[[menu.main]]
+    name = "Desert"
+    identifier = "desert"
+    url = "/categories/desert/"
+    parent = "Receipe"
 [[menu.main]]
   name = "Programming"
   identifier = "programming"
@@ -22,7 +42,7 @@ paginate = 10
 [params]
         title = "Mark Boss"
         subtitle = "A blog about vegan cooking, programming, design and random stuff"
-        copyright = "Copyright (c) 2016 - 2016, Mark Boss; all rights reserved."
+        copyright = "Copyright (c), Mark Boss; all rights reserved."
         themeColor = "blue"
 
         name = "Mark Boss"
@@ -30,6 +50,7 @@ paginate = 10
         description = "A blog about vegan cooking, programming, design and random stuff"
         twitter = "benediktmboss"
         github = "vork"
+        instagram = "benediktmboss"
 
         keepReadingStr = "Keep reading"
 	      backtotopStr = "Back to top"

@@ -1,0 +1,57 @@
+<div class="sidebar">
+	<div class="col-lg-7 col-lg-offset-1 col-md-8">
+		<div class="row isotope-container">
+			<div class="col-md-24 col-sm-12 col-xs-24 isotope-item">
+				<div class="widget widget_bio">
+					<h5 class="widget-title">About me</h5>
+
+					<img src="{{ $.Site.BaseURL }}images/avatar.png" alt="author avatar" />
+
+					<div class="bio">
+						<h4 class="name">Author blogger</h4>
+
+						<ul class="social-block">
+							{{ if isset .Site.Params "twitter"}}
+							<li><a href="https://twitter.com/{{ .Site.Params.twitter}}"><i class="fa fa-twitter"></i></a></li>
+							{{ end }}
+							{{ if isset .Site.Params "instagram"}}
+							<li><a href="https://www.instagram.com/{{ .Site.Params.instagram }}"><i class="fa fa-instagram"></i></a></li>
+							{{ end }}
+							{{ if isset .Site.Params "github"}}
+							<li><a href="https://github.com/{{ .Site.Params.github }}"><i class="fa fa-github"></i></a></li>
+							{{ end }}
+							{{ if isset .Site.Params "youtube"}}
+							<li><a href="https://www.youtube.com/channel/{{ .Site.Params.youtube }}"><i class="fa fa-youtube"></i></a></li>
+							{{ end }}
+						</ul>
+
+						<p>{{ .Site.Params.description}}</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-24 col-sm-12 col-xs-24 isotope-item">
+				<div class="widget widget_categories">
+					<h5 class="widget-title">Categories</h5>
+					<ul>
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+              <li><a href="/categories/{{ $name | urlize }}">{{ $name }}</a></li>
+            {{ end }}
+					</ul>
+				</div>
+			</div>
+
+      <div class="col-md-24 col-sm-12 col-xs-24 isotope-item">
+				<div class="widget widget_tagcloud">
+					<h5 class="widget-title">Tag cloud</h5>
+
+					<div class="tag_cloud">
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+						<a href="/tags/{{ $name | urlize }}">{{ $name }}</a>
+            {{ end }}
+					</div>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>

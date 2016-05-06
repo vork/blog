@@ -1,0 +1,32 @@
+{{ partial "head" . }}
+<body id="front-page">
+	<!-- Page Wrapper -->
+	<div id="page">
+		{{ partial "header" . }}
+	  {{ partial "navigation" . }}
+
+		<!-- Main Content -->
+		<div class="content-wrapper">
+			<!-- Error Section -->
+			<section class="section error-section">
+				<div class="container">
+					<div class="section-header big">
+						<p>Oops, Page Not Found!</p>
+						<h2>Error 404</h2>
+						<p class="bottom">The page you are looking for does not exist. Please enter a valid URL or return home</p>
+					</div>
+
+					<div class="btn-wrapper">
+						<a href="index.html" class="btn template-btn-2">Go home</a>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	{{ partial "footer" . }}
+
+</div>
+
+{{ partial "js" . }}
+</body>
+</html>

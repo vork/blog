@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+	<meta charset="utf-8" />
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
+    <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}" />
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    {{ "<!-- RSS autodiscovery -->" | safeHTML }}
+    {{ if .RSSlink }}
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml"
+    title="{{ .Site.Title }}" />
+    <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml"
+    title="{{ .Site.Title }}" />
+    {{ end }}
+
+    <!-- Style CSS & Google Fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic%7CMontserrat:400,700" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/icomoon.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/screen.css" />
+</head>

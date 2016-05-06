@@ -1,0 +1,33 @@
+{{ if .Site.Menus.main }}
+<div class="large-container">
+  <div class="row">
+    <div class="col-xs-24">
+      <span class="mobile-nav-toggle no-select"></span>
+      <nav>
+        <ul>
+          {{ $currentNode := . }}
+          {{ range .Site.Menus.main }}
+
+            {{ if .HasChildren }}
+            <li {{if $currentNode.IsMenuCurrent "main" . }}class="current-menu-item"{{ end }}>
+              <a class="" href="{{.URL}}">{{.Name}}</a>
+              <ul>
+                {{ range .Children }}
+                  <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            {{else}}
+            <li {{if $currentNode.IsMenuCurrent "main" . }}class="current-menu-item"{{ end }}>
+              <a href="{{.URL}}">{{.Name}}</a>
+            {{end}}
+            </li>
+          {{end}}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+{{ end }}
+</header>
