@@ -89,7 +89,7 @@
 			feeds.each(function (i, val) {
 				teslaThemes.instagramFeed(feeds.eq(i), {
 					access_token: '',
-					client_id: 'dc3bc328c3ae47939dfeff0e71893cda',
+					client_id: 'a112e49897514c17bf05596fdca4b5c2',
 					count: feeds.eq(i).attr('data-instagram-items')
 		        });
 			});
