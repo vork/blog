@@ -1347,6 +1347,7 @@ footer .copy-rights p a:hover {
   justify-content:center;
   align-items:center;
   margin-top: 20px;
+  height: 400px;
 }
 
 .blog-post .post-cover:hover:after {
