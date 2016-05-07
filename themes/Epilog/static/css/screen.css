@@ -803,6 +803,7 @@ header.style-2 .large-container .global-search-form.expanded .search-input {
   header.style-2 .mobile-nav-toggle {
     position: relative;
     top: 10px;
+    margin-bottom: 15px;
   }
   header.style-2 .large-container .global-search-form {
     margin-top: -20px;
@@ -1343,8 +1344,6 @@ footer .copy-rights p a:hover {
 .blog-post .post-cover {
   position: relative;
   overflow: hidden;
-  height: 378px;
-  width: 700px;
   display:flex;
   justify-content:center;
   align-items:center;
