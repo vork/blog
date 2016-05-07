@@ -20,11 +20,13 @@
 		</ul>
 	</div>
 
+	{{ if isset .Params "image" }}
 	<div class="post-cover">
-		<a href="blog-post.html">
-		  <img src="{{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}avatar.png{{ end }}" alt="big post cover" />
+		<a href="{{ .Permalink }}">
+		  <img src="{{ $.Site.BaseURL }}images/{{ .Params.image }}" alt="big post cover" />
 		</a>
 	</div>
+	{{ end }}
 
 	<div class="post-body">
 	  <p>{{ .Summary }}</p>

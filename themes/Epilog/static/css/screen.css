@@ -1990,6 +1990,17 @@ ul.page-numbers li:last-of-type {
 .sidebar .widget {
   margin: 0 0 50px;
 }
+
+.sidebar .widget img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.widget_bio {
+  text-align: center;
+}
+
 @media (max-width: 992px) {
   .sidebar {
     padding: 60px 0 0;
