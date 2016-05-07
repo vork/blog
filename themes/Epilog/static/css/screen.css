@@ -1320,7 +1320,6 @@ footer .copy-rights p a:hover {
 }
 .blog-post .post-header .post-meta {
   list-style-type: none;
-  margin: 0 0 20px;
   font-size: 0;
   padding: 0;
 }
@@ -1347,6 +1346,7 @@ footer .copy-rights p a:hover {
   display:flex;
   justify-content:center;
   align-items:center;
+  margin-top: 20px;
 }
 
 .blog-post .post-cover:hover:after {

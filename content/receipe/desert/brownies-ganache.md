@@ -9,7 +9,6 @@ tags = [
 ]
 title = "Brownies with ganache"
 +++
-
 Ok. Brownies are awesome. Add chocolate ganache and they’re even more awesome. Nothing for a strict diet, but definitely tasty.
 
 <!--more-->

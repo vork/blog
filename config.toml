@@ -38,21 +38,19 @@ paginate = 10
   name = "Design"
   identifier = "design"
   url = "/design/"
+[[menu.main]]
+  name = "Productivity"
+  identifier = "productivity"
+  url = "/productivity"
 
 [params]
         title = "Mark Boss"
-        subtitle = "A blog about vegan cooking, programming, design and random stuff"
         copyright = "Copyright (c), Mark Boss; all rights reserved."
-        themeColor = "blue"
 
         name = "Mark Boss"
-        bio = "Nerd, cooking enthusiast"
         description = "A blog about vegan cooking, programming, design and random stuff"
         twitter = "benediktmboss"
         github = "vork"
         instagram = "benediktmboss"
 
         keepReadingStr = "Keep reading"
-	      backtotopStr = "Back to top"
-	      shareStr = "Share"
-	      pageNotFoundTitle = "404 - Page not found"

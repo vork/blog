@@ -11,7 +11,7 @@
     {{end}}
 
 		<h2 class="post-title">
-			<a href="{{ .Permalink }}">{{ .Title }}
+			<a href="{{ .Permalink }}">{{ .Title }}</a>
 		</h2>
 
 		<ul class="post-meta">
@@ -29,7 +29,7 @@
 	{{ end }}
 
 	<div class="post-body">
-	  <p>{{ .Summary }}</p>
+	  <p>{{ .Summary | chomp | markdownify }}</p>
 
 		<div class="align-center">
 			<a href="{{ .Permalink }}" class="btn template-btn-2">{{ .Site.Params.keepReadingStr }}</a>

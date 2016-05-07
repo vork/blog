@@ -9,7 +9,6 @@ tags = [
 ]
 draft = true
 +++
-
 Becoming a vegan meant quitting on lots of stuff. Like cheese and mayonnaise. But vegan cooking also meant creative cooking for me and finding ways to prepare a specific non vegan dish. So here is a vegan mayonnaise version.
 
 <!--more-->
@@ -32,4 +31,3 @@ For 400ml of mayonnaise:
 Add everything except the oil to a blender or wand blender. Combine everything for 30 seconds.
 
 Slowly add the oil while blending until it thickens. Taste and adjust seasoning as needed.
-
