@@ -10,7 +10,7 @@ type = "post"
 categories = ["Software"]
 canonifyurls = true
 +++
-I really love productivity tools. Mostly because I’m lazy and I like productivity. The perfect match for productivity software. Again I’m using a MacBook for work and so productivity matters most while working. So this stuff is mostly OS X based.
+I really love productivity tools. Mostly because I’m lazy and I like productivity. The perfect match for productivity software. Again as mentioned in my [design edition]({{< relref "design/software-I-use-design.md" >}}) I’m using a MacBook for work and so productivity matters most while working. So this stuff is mostly OS X based.
 <!--more-->
 
 * [1Password](https://1password.com/):
