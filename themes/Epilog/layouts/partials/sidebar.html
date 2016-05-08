@@ -5,11 +5,7 @@
 				<div class="widget widget_bio">
 					<h5 class="widget-title">About me</h5>
 
-					<img src="{{ $.Site.BaseURL }}images/avatar.png" alt="author avatar" />
-
 					<div class="bio">
-						<h4 class="name">Author blogger</h4>
-
 						<ul class="social-block">
 							{{ if isset .Site.Params "twitter"}}
 							<li><a href="https://twitter.com/{{ .Site.Params.twitter}}"><i class="fa fa-twitter"></i></a></li>
@@ -46,8 +42,8 @@
 					<h5 class="widget-title">Tag cloud</h5>
 
 					<div class="tag_cloud">
-            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-						<a href="/tags/{{ $name | urlize }}">{{ $name }}</a>
+            {{ range .Site.Taxonomies.tags.ByCount }}
+						<a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a>
             {{ end }}
 					</div>
 				</div>
