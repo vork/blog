@@ -13,7 +13,7 @@ tags = [
 title = "Roasted asparagus cherry tomato wraps"
 type = "post"
 +++
-I guess this recipe is in the category: You can put everything is a wrap. So I wanted to try green asparagus in a wrap, because I'm kinda in love with green asparagus currently. It looks way fancier than the white one and you don't need to peel it. This is a huge bonus if you don't want a quick meal.
+I guess this recipe is in the category: You can put everything is a wrap. So I wanted to try green asparagus in a wrap, because I'm kinda in love with green asparagus currently. It looks way fancier than the white one and you don't need to peel it. This is a huge bonus if you want a quick and tasty meal.
 <!--more-->
 
 ![](/images/roasted-asparagus-cherry-tomato-wraps.jpeg)
