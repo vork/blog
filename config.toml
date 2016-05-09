@@ -2,6 +2,7 @@ baseurl = "https://markboss.de/"
 languageCode = "en-us"
 title = "Mark Boss"
 theme = "Epilog"
+googleAnalytics = "UA-43526609-4"
 
 canonifyurls = true
 paginate = 10
