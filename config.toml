@@ -8,7 +8,7 @@ canonifyurls = true
 paginate = 10
 
 [[menu.main]]
-  name = "Recipe"
+  name = "Recipes"
   identifier = "Recipe"
   url = "/recipe/"
 [[menu.main]]
