@@ -8,29 +8,29 @@ canonifyurls = true
 paginate = 10
 
 [[menu.main]]
-  name = "Receipe"
-  identifier = "Receipe"
-  url = "/receipe/"
+  name = "Recipe"
+  identifier = "Recipe"
+  url = "/recipe/"
 [[menu.main]]
     name = "Basics"
     identifier = "basics"
     url = "/categories/basics/"
-    parent = "Receipe"
+    parent = "Recipe"
 [[menu.main]]
     name = "Appetizer"
     identifier = "appetizer"
     url = "/categories/appeitzer/"
-    parent = "Receipe"
+    parent = "Recipe"
 [[menu.main]]
     name = "Main Dish"
     identifier = "main-dish"
     url = "/categories/main-dish/"
-    parent = "Receipe"
+    parent = "Recipe"
 [[menu.main]]
     name = "Desert"
     identifier = "desert"
     url = "/categories/desert/"
-    parent = "Receipe"
+    parent = "Recipe"
 [[menu.main]]
   name = "Programming"
   identifier = "programming"
